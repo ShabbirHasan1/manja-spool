@@ -1,0 +1,9 @@
+[package]
+name = "manja-spool"
+version = "0.1.0"
+edition = "2021"
+authors = ["Paresh Saxena <pareshsaxena@gmail.com>"]
+description = "Ergonomic API to generate an access token by authenticating with Zerodha's servers using user credentials and 2FA TOTP"
+
+[dependencies]
+fantoccini = "0.19.3"
